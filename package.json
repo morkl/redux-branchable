@@ -14,6 +14,10 @@
   ],
   "author": "Patrik Johansson <github@morkl.se> (http://github.com/morkl)",
   "homepage": "https://github.com/morkl/redux-branchable",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/morkl/redux-branchable.git",
+  },
   "license": "MIT",
   "devDependencies": {
     "babel": "^6.5.2",
