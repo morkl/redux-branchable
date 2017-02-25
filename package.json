@@ -1,6 +1,6 @@
 {
   "name": "redux-branchable",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "branchable redux reducer",
   "main": "./lib/index.js",
   "scripts": {
@@ -10,7 +10,9 @@
     "rebuild": "npm run clean && npm run lint && npm run build"
   },
   "keywords": [
-    "redux", "branching", "time travel"
+    "redux",
+    "branching",
+    "time travel"
   ],
   "author": "Patrik Johansson <github@morkl.se> (http://github.com/morkl)",
   "homepage": "https://github.com/morkl/redux-branchable",
