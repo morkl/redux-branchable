@@ -16,7 +16,7 @@
   "homepage": "https://github.com/morkl/redux-branchable",
   "repository": {
     "type": "git",
-    "url": "https://github.com/morkl/redux-branchable.git",
+    "url": "https://github.com/morkl/redux-branchable.git"
   },
   "license": "MIT",
   "devDependencies": {
