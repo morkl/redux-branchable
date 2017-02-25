@@ -67,4 +67,5 @@ After the above exercise, the state should look something like this:
 ```
 
 The historic state tree can be visualized within the app, and the visualization can be used to navigate quickly between the branches:
+
 ![http://i.imgur.com/e0yycvT.png](http://i.imgur.com/e0yycvT.png)
