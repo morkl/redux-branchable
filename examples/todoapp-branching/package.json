@@ -1,18 +1,11 @@
 {
-  "name": "redux-todos-with-undo-example",
+  "name": "redux-todos-with-branching-example",
   "version": "0.0.0",
-  "description": "Redux todos with undo example",
+  "description": "Redux todos with branching example (based on https://github.com/omnidan/redux-undo/tree/master/examples/todos-with-undo)",
   "scripts": {
     "start": "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/omnidan/redux-undo.git"
-  },
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/omnidan/redux-undo/issues"
-  },
   "dependencies": {
     "babel-polyfill": "^6.3.14",
     "react": "^0.14.7",
@@ -20,8 +13,7 @@
     "react-redux": "^4.2.1",
     "react-tree-graph": "^1.1.0",
     "redux": "^3.2.1",
-    "redux-branchable": "^0.1.0",
-    "redux-undo": "^1.0.0-beta2"
+    "redux-branchable": "^0.1.0"
   },
   "devDependencies": {
     "babel-core": "^6.3.15",
