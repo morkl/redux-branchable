@@ -1,0 +1,11 @@
+{
+  "parser": "babel-eslint",
+  "extends": "airbnb",
+  "env": {
+    "mocha": true
+  },
+  "rules": {
+      "linebreak-style": ["error", "windows"],
+      "import/prefer-default-export": ["off"]
+    }
+}
