@@ -13,7 +13,7 @@
     "react-redux": "^4.2.1",
     "react-tree-graph": "^1.1.0",
     "redux": "^3.2.1",
-    "redux-branchable": "^0.1.3"
+    "redux-branchable": "^0.1.4"
   },
   "devDependencies": {
     "babel-core": "^6.3.15",
