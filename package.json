@@ -1,6 +1,6 @@
 {
   "name": "redux-branchable",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "branchable redux reducer",
   "main": "./lib/index.js",
   "scripts": {
