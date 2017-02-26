@@ -3,7 +3,7 @@ import { goToSpecificAction, getBranchStateAsTree } from 'redux-branchable'
 import Branches from '../components/Branches'
 
 const mapStateToProps = (state) => ({
-  rootBranch: getBranchStateAsTree(state.branches.findIndex(x => x.parent === null), 0, state.branches),
+  rootBranch: getBranchStateAsTree(state.branches),
   currentBranch: state.currentBranch,
   currentDepth: state.currentAction,
 })

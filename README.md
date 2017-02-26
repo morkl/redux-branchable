@@ -69,3 +69,56 @@ After the above exercise, the state should look something like this:
 The historic state tree can be visualized within the app, and the visualization can be used to navigate quickly between the branches:
 
 ![http://i.imgur.com/e0yycvT.png](http://i.imgur.com/e0yycvT.png)
+
+A utility method for transforming the branch state to a tree structure is also supplied:
+```js
+import { getBranchStateAsTree } from 'redux-branchable'
+getBranchStateAsTree(state.branches);
+// returns:
+{
+  "action": { "type": "@@redux-branchable/INIT" },
+  "branch": 0,
+  "depth": 0,
+  "children": [
+    {
+      "action": { "type": "ADD_TODO", "text": "i'm on the main/first branch" },
+      "branch": 0,
+      "depth": 1,
+      "children": [
+        {
+          "action": { "type": "ADD_TODO", "text": "still on the first branch" },
+          "branch": 0,
+          "depth": 2,
+          "children": [
+            {
+              "action": { "type": "ADD_TODO", "text": "adding stuff to the first branch again" },
+              "branch": 0,
+              "depth": 3,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "action": { "type": "ADD_TODO", "text": "a new branch is created" },
+      "branch": 1,
+      "depth": 0,
+      "children": [
+        {
+          "action": { "type": "ADD_TODO", "text": "more stuff on the second branch" },
+          "branch": 1,
+          "depth": 1,
+          "children": []
+        },
+        {
+          "action": { "type": "ADD_TODO", "text": "creating a new branch off of the second one" },
+          "branch": 2,
+          "depth": 0,
+          "children": []
+        }
+      ]
+    }
+  ]
+}
+```
